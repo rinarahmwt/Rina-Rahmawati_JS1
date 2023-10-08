@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Percabangan if/else/nested if </title>
+ 
+<body>
+    <script type="text/javascript">
+        var totalBelanja = prompt ("Total belanja?", 0);
+
+        if(totalBelanja > 50000){
+            document.write("<h2>Selamat Anda Mendapatkan Hadiah</h2>");
+        }
+        document.writ("<p>Terimakasih sudah berbelanja di toko kami</p>");
+
+
+        var password = prompt("Masukkan password", "");
+
+        if(password == "buy1get1"){
+            document.write("<h2>Selamat Datang Customer!</h2>");
+        } else {
+            document.write("<p>Password anda salah, silahkan coba kembali.</p>");
+        }  
+
+        document.write("<p>Terima kasih atas kunjungannya</p>");
+
+
+        var username = prompt("Username", "");
+        var password = prompt("Password", "");
+
+        if(username == "rinarahmwt"){
+            if(password == "buy1get1"){
+                document.write("<h2>Selamat Datang Customer!</h2>");
+            } else {
+                document.write("<p>Password anda salah, silahkan coba kembali.</p>");
+            }
+        } else {
+            document.write("<p>Anda tidak terdaftar!</p>");
+        }
+        </script>
+    
+</body>
+</html>  
